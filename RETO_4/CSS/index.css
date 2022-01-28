@@ -1,0 +1,152 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.header-main-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    align-items:center;
+}
+/*
+li{
+    list-style:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    color:#333333;
+}
+*/
+.title{
+    color:#000000;
+    margin-right: 520px;
+    margin-top:20px; 
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.parrafo{
+    font-family:'Montserrat', sans-serif;
+    margin-right: 400px;
+    margin-top:7px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    color:#4F4F4F;
+
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+.title-ingredients-main{
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+
+}
+.img-header{
+    width: 967px;
+    height: 400px;
+}
+.title-graham{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333333;
+    margin-top:30px;
+    margin-left:480px;
+}
+.container-ingredients{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-container{
+    width: 957px;
+    display: flex;
+    flex-direction: column;
+}
+ .font-family-distinf{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size:14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.title-footer{
+   margin-top:40px;
+   font-family: 'Montserrat', sans-serif;
+   color:#333333;
+   font-weight: bold;
+}
+
+@media screen  and (max-width:600px) {
+   
+   .title{
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+   }
+   .parrafo{
+         display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px;
+        
+   }
+   .container-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-header{
+        width: 290px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .title-graham{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .title-ingredients-main{
+        margin-left: 20px;
+    }
+    li{
+        line-height: 30px;
+        margin-left: 20px;
+        list-style:none;
+        font-family: 'Montserrat', sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        color:#333333;
+    }
+    .font-parrafo-bold{
+        font-weight: bold;
+        font-size: 13px;
+        margin-left: 4px;
+    }
+    .title-footer{
+        font-size:14px;
+    }
+    
+    
+    
+}
